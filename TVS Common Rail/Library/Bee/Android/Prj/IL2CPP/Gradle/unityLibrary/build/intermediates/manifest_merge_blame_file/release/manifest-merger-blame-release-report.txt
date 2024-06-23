@@ -1,0 +1,217 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player"
+4    android:installLocation="auto" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="29"
+7-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+10-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-77
+11-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-74
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-69
+12-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:20-66
+13    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+13-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-78
+13-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:20-75
+14
+15    <uses-feature
+15-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-111
+16        android:name="android.hardware.vr.headtracking"
+16-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-64
+17        android:required="true"
+17-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:85-108
+18        android:version="1" />
+18-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:65-84
+19    <uses-feature
+19-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-90
+20        android:name="android.hardware.vulkan.version"
+20-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-63
+21        android:required="true" />
+21-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:64-87
+22    <uses-feature
+22-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-87
+23        android:name="android.hardware.microphone"
+23-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-59
+24        android:required="false" />
+24-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:60-84
+25    <uses-feature
+25-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-88
+26        android:name="android.hardware.touchscreen"
+26-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-60
+27        android:required="false" />
+27-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:61-85
+28    <uses-feature
+28-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-99
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:17-71
+30        android:required="false" />
+30-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:72-96
+31    <uses-feature
+31-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:3-108
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:17-80
+33        android:required="false" />
+33-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:81-105
+34    <uses-feature
+34-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:3-88
+35        android:name="oculus.software.handtracking"
+35-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:17-60
+36        android:required="false" />
+36-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:61-85
+37
+38    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+38-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:3-73
+38-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:20-70
+39
+40    <application
+40-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:3-36:17
+41        android:allowBackup="false"
+41-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:81-108
+42        android:extractNativeLibs="true"
+42-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:109-141
+43        android:icon="@mipmap/app_icon"
+43-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:49-80
+44        android:label="@string/app_name"
+44-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+45        android:networkSecurityConfig="@xml/network_sec_config" >
+45-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:142-197
+46        <meta-data
+46-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-89
+47            android:name="unityplayer.SkipPermissionsDialog"
+47-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-64
+48            android:value="false" />
+48-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:65-86
+49        <meta-data
+49-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-97
+50            android:name="com.samsung.android.vr.application.mode"
+50-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-70
+51            android:value="vr_only" />
+51-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:71-94
+52        <meta-data
+52-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-124
+53            android:name="com.oculus.supportedDevices"
+53-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-58
+54            replace="android:value"
+54-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:98-121
+55            android:value="quest2|questpro|eureka" />
+55-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:59-97
+56        <meta-data
+56-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-69
+57            android:name="unity.splash-mode"
+57-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-48
+58            android:value="0" />
+58-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:49-66
+59        <meta-data
+59-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-74
+60            android:name="unity.splash-enable"
+60-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-50
+61            android:value="True" />
+61-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:51-71
+62        <meta-data
+62-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-78
+63            android:name="unity.launch-fullscreen"
+63-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-54
+64            android:value="True" />
+64-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:55-75
+65        <meta-data
+65-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-84
+66            android:name="unity.allow-resizable-window"
+66-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-59
+67            android:value="False" />
+67-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:60-81
+68        <meta-data
+68-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-81
+69            android:name="notch.config"
+69-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-43
+70            android:value="portrait|landscape" />
+70-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:44-78
+71        <meta-data
+71-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-84
+72            android:name="unity.auto-report-fully-drawn"
+72-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-60
+73            android:value="true" />
+73-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:61-81
+74
+75        <activity
+75-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-31:16
+76            android:name="com.unity3d.player.UnityPlayerActivity"
+76-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:222-275
+77            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+77-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:80-189
+78            android:excludeFromRecents="true"
+78-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:276-309
+79            android:exported="true"
+79-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:310-333
+80            android:hardwareAccelerated="false"
+80-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:407-442
+81            android:launchMode="singleTask"
+81-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:190-221
+82            android:resizeableActivity="false"
+82-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:372-406
+83            android:screenOrientation="landscape"
+83-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:334-371
+84            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+84-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:15-79
+85            <intent-filter>
+85-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:7-28:23
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:9-69
+86-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:19-66
+87                <category android:name="com.oculus.intent.category.VR" />
+87-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:9-66
+87-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:19-63
+88
+89                <action android:name="android.intent.action.MAIN" />
+89-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:9-61
+89-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-58
+90            </intent-filter>
+91
+92            <meta-data
+92-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:7-81
+93                android:name="com.oculus.vr.focusaware"
+93-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:18-57
+94                android:value="true" />
+94-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:58-78
+95            <meta-data
+95-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:7-70
+96                android:name="notch_support"
+96-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:18-46
+97                android:value="true" />
+97-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:47-67
+98        </activity>
+99
+100        <meta-data
+100-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-91
+101            android:name="com.unity.xr.oculus.LowOverheadMode"
+101-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-66
+102            android:value="false" />
+102-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:67-88
+103        <meta-data
+103-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-88
+104            android:name="com.unity.xr.oculus.LateLatching"
+104-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-63
+105            android:value="false" />
+105-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:64-85
+106        <meta-data
+106-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:5-93
+107            android:name="com.unity.xr.oculus.LateLatchingDebug"
+107-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:16-68
+108            android:value="false" />
+108-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:69-90
+109        <meta-data
+109-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:5-87
+110            android:name="com.oculus.handtracking.frequency"
+110-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:16-64
+111            android:value="LOW" />
+111-->D:\DELPHI TVS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:65-84
+112    </application>
+113
+114</manifest>

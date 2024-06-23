@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player"
+4    android:installLocation="auto" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="23"
+7-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+10-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-77
+11-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-74
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-69
+12-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:20-66
+13    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+13-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-78
+13-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:20-75
+14
+15    <uses-feature
+15-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-111
+16        android:name="android.hardware.vr.headtracking"
+16-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-64
+17        android:required="true"
+17-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:85-108
+18        android:version="1" />
+18-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:65-84
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-52
+19-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-49
+20    <uses-feature
+20-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-91
+21        android:name="android.hardware.vulkan.version"
+21-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-63
+22        android:required="false" />
+22-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:64-88
+23    <uses-feature
+23-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-87
+24        android:name="android.hardware.microphone"
+24-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-59
+25        android:required="false" />
+25-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:60-84
+26    <uses-feature
+26-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-88
+27        android:name="android.hardware.touchscreen"
+27-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:17-60
+28        android:required="false" />
+28-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:61-85
+29    <uses-feature
+29-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:3-99
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:17-71
+31        android:required="false" />
+31-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:72-96
+32    <uses-feature
+32-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:3-108
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:17-80
+34        android:required="false" />
+34-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:81-105
+35
+36    <application
+36-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:3-36:17
+37        android:allowBackup="false"
+37-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:81-108
+38        android:extractNativeLibs="true"
+38-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:109-141
+39        android:icon="@mipmap/app_icon"
+39-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-80
+40        android:label="@string/app_name"
+40-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+41        android:networkSecurityConfig="@xml/network_sec_config" >
+41-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:142-197
+42        <meta-data
+42-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-89
+43            android:name="unityplayer.SkipPermissionsDialog"
+43-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-64
+44            android:value="false" />
+44-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:65-86
+45        <meta-data
+45-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-97
+46            android:name="com.samsung.android.vr.application.mode"
+46-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-70
+47            android:value="vr_only" />
+47-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:71-94
+48        <meta-data
+48-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-117
+49            android:name="com.oculus.supportedDevices"
+49-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-58
+50            replace="android:value"
+50-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:91-114
+51            android:value="quest2|questpro" />
+51-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:59-90
+52        <meta-data
+52-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-69
+53            android:name="unity.splash-mode"
+53-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-48
+54            android:value="0" />
+54-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:49-66
+55        <meta-data
+55-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-74
+56            android:name="unity.splash-enable"
+56-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-50
+57            android:value="True" />
+57-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:51-71
+58        <meta-data
+58-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-78
+59            android:name="unity.launch-fullscreen"
+59-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-54
+60            android:value="True" />
+60-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:55-75
+61        <meta-data
+61-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-84
+62            android:name="unity.allow-resizable-window"
+62-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-59
+63            android:value="False" />
+63-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:60-81
+64        <meta-data
+64-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-81
+65            android:name="notch.config"
+65-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-43
+66            android:value="portrait|landscape" />
+66-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:44-78
+67        <meta-data
+67-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-84
+68            android:name="unity.auto-report-fully-drawn"
+68-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-60
+69            android:value="true" />
+69-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:61-81
+70
+71        <activity
+71-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-32:16
+72            android:name="com.unity3d.player.UnityPlayerActivity"
+72-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:214-267
+73            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+73-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:80-181
+74            android:excludeFromRecents="true"
+74-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:268-301
+75            android:exported="true"
+75-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:302-325
+76            android:hardwareAccelerated="false"
+76-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:399-434
+77            android:launchMode="singleTask"
+77-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:182-213
+78            android:resizeableActivity="false"
+78-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:364-398
+79            android:screenOrientation="landscape"
+79-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:326-363
+80            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+80-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:15-79
+81            <intent-filter>
+81-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:7-29:23
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:9-69
+82-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:19-66
+83                <category android:name="com.oculus.intent.category.VR" />
+83-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:9-66
+83-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:19-63
+84
+85                <action android:name="android.intent.action.MAIN" />
+85-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:9-61
+85-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-58
+86            </intent-filter>
+87
+88            <meta-data
+88-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:7-81
+89                android:name="com.oculus.vr.focusaware"
+89-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:18-57
+90                android:value="true" />
+90-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:58-78
+91            <meta-data
+91-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:7-70
+92                android:name="notch_support"
+92-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:18-46
+93                android:value="true" />
+93-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:47-67
+94        </activity>
+95
+96        <meta-data
+96-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-91
+97            android:name="com.unity.xr.oculus.LowOverheadMode"
+97-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-66
+98            android:value="false" />
+98-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:67-88
+99        <meta-data
+99-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:5-88
+100            android:name="com.unity.xr.oculus.LateLatching"
+100-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:16-63
+101            android:value="false" />
+101-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:64-85
+102        <meta-data
+102-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:5-93
+103            android:name="com.unity.xr.oculus.LateLatchingDebug"
+103-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:16-68
+104            android:value="false" />
+104-->D:\DELPHI TVS\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:69-90
+105    </application>
+106
+107</manifest>
